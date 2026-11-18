@@ -1,0 +1,298 @@
+[
+  {
+    "id": "q_tech_001",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What does HTTP stand for on the World Wide Web?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transmission Text Process",
+      "Hyperlink Terminal Transport Path",
+      "Host Transfer Text Protocol"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the foundation of data communication on the web.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_002",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which programming language is officially preferred by Google for modern Android development?",
+    "options": ["Ruby", "Kotlin", "Swift", "Perl"],
+    "correctIndex": 1,
+    "explanation": "Kotlin became Google's preferred language for Android app development due to null safety and concise syntax.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_003",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What does CPU stand for in computer hardware?",
+    "options": [
+      "Core Program Utility",
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Centralized Peripheral Interface"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Central Processing Unit (CPU) executes instructions that make up a computer program.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_004",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which Git command creates a new local copy of an existing remote repository?",
+    "options": ["git merge", "git rebase", "git clone", "git stash"],
+    "correctIndex": 2,
+    "explanation": "git clone downloads a remote repository and its commit history into a new local directory.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_005",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "How many bits make up a single byte?",
+    "options": ["4 bits", "8 bits", "16 bits", "32 bits"],
+    "correctIndex": 1,
+    "explanation": "A standard byte consists of 8 binary bits, capable of representing 256 distinct values.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_006",
+    "category": "TECH",
+    "difficulty": "EASY",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which standard port number is used by HTTPS traffic by default?",
+    "options": ["21", "80", "443", "8080"],
+    "correctIndex": 2,
+    "explanation": "HTTPS uses port 443 for TLS-encrypted web traffic, while plain HTTP uses port 80.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_007",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "In Jetpack Compose, which function preserves state across recompositions of a Composable?",
+    "options": ["remember", "LaunchedEffect", "derivedState", "produceValue"],
+    "correctIndex": 0,
+    "explanation": "remember stores an object in Composition memory so it survives recomposition until the composable leaves the tree.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_008",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which HTTP status code indicates that a request succeeded and a new resource was created?",
+    "options": ["200 OK", "201 Created", "204 No Content", "301 Moved Permanently"],
+    "correctIndex": 1,
+    "explanation": "HTTP 201 Created confirms that the request has been fulfilled and resulted in one or more new resources.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_009",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What is the primary purpose of DNS on the Internet?",
+    "options": [
+      "Encrypting email attachments",
+      "Translating human-readable domain names into IP addresses",
+      "Compressing video streams",
+      "Assigning MAC addresses to network cards"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Domain Name System (DNS) resolves domain names like example.com into numeric IP addresses.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_010",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "In Firestore, what type of database model is used to organize data?",
+    "options": [
+      "Relational tables with foreign-key joins",
+      "NoSQL document-collection model",
+      "Columnar time-series ledger",
+      "Graph triple store"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cloud Firestore stores data inside JSON-like documents organized within collections.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_011",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which data structure operates strictly on a Last-In, First-Out (LIFO) principle?",
+    "options": ["Queue", "Stack", "Linked Hash Map", "Min-Heap"],
+    "correctIndex": 1,
+    "explanation": "A Stack pushes and pops elements from the top, making the most recently added item the first removed.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_012",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What does JSON stand for?",
+    "options": [
+      "Java Serialized Object Network",
+      "JavaScript Object Notation",
+      "Joined Schema Output Node",
+      "Java Standard Open Notation"
+    ],
+    "correctIndex": 1,
+    "explanation": "JSON stands for JavaScript Object Notation, a lightweight text-based data interchange format.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_013",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which Linux command displays currently running processes dynamically in real time?",
+    "options": ["chmod", "top", "mkdir", "grep"],
+    "correctIndex": 1,
+    "explanation": "The top command provides a real-time dynamic view of active system processes, CPU, and memory usage.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_014",
+    "category": "TECH",
+    "difficulty": "MEDIUM",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "In Kotlin Coroutines, which dispatcher is optimized for disk or network I/O operations?",
+    "options": [
+      "Dispatchers.Main",
+      "Dispatchers.IO",
+      "Dispatchers.Default",
+      "Dispatchers.Unconfined"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dispatchers.IO uses an elastic thread pool designed for offloading blocking disk and network I/O tasks.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_015",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What is the average time complexity of searching for a key in a balanced hash table?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctIndex": 0,
+    "explanation": "With a good hash function and low load factor, hash table lookups run in O(1) constant average time.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_016",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "Which architecture introduced the self-attention mechanism that powers modern Large Language Models?",
+    "options": [
+      "Recurrent Autoencoder",
+      "Transformer",
+      "Boltzmann Machine",
+      "Hopfield Network"
+    ],
+    "correctIndex": 1,
+    "explanation": "Introduced in the 2017 paper 'Attention Is All You Need', the Transformer uses self-attention to model sequence relationships in parallel.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_017",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "In relational databases, what does ACID stand for?",
+    "options": [
+      "Asynchronous, Concurrent, Indexed, Distributed",
+      "Atomicity, Consistency, Isolation, Durability",
+      "Authentication, Caching, Integrity, Delivery",
+      "Access, Control, Isolation, Dependency"
+    ],
+    "correctIndex": 1,
+    "explanation": "ACID guarantees reliable database transactions through Atomicity, Consistency, Isolation, and Durability.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_018",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What protocol uses a three-way handshake (SYN, SYN-ACK, ACK) to establish reliable connections?",
+    "options": ["UDP", "ICMP", "TCP", "ARP"],
+    "correctIndex": 2,
+    "explanation": "TCP establishes a reliable connection between client and server using the SYN, SYN-ACK, ACK three-way handshake.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_019",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "TEXT",
+    "prompt": "What cryptographic property ensures that changing one bit of input produces a vastly different hash output?",
+    "options": [
+      "Key escrow",
+      "Avalanche effect",
+      "Padding oracle",
+      "Symmetric rotation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The avalanche effect means a tiny change in input causes roughly half the output bits of a cryptographic hash to flip.",
+    "isActive": true
+  },
+  {
+    "id": "q_tech_020",
+    "category": "TECH",
+    "difficulty": "HARD",
+    "language": "en",
+    "questionType": "ORDERING",
+    "prompt": "Arrange these storage capacity units from smallest to largest:",
+    "options": [
+      "Kilobyte (KB)",
+      "Megabyte (MB)",
+      "Gigabyte (GB)",
+      "Terabyte (TB)"
+    ],
+    "correctIndex": 0,
+    "correctOrder": [
+      "Kilobyte (KB)",
+      "Megabyte (MB)",
+      "Gigabyte (GB)",
+      "Terabyte (TB)"
+    ],
+    "explanation": "Each unit scales up by a factor of roughly 1,000 (or 1,024 in binary): KB < MB < GB < TB.",
+    "isActive": true
+  }
+]
